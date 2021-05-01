@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+  }
+  
+  .login-box {
+    width: 320px;
+    height: 810px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  .login-box .imagen {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .login-box input[type="textarea"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+  
+  .login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+  }
+  
+  .login-box a:hover {
+    color: #fff;
+  }
+
+  /*iconos redes sociales*/
+.redes-container{
+    display: flex;
+    height: 50px;
+    position: relative;
+    top: 80px;
+}
+.redesradica{
+    display: flex;
+    height: 50px;
+    position: relative;
+    top: 80px;
+}
+.redes-container ul li{
+    display: inline-block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redesradica ul li{
+    display: inline-block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: rgb(15,98,129);
+    background: rgba(125,125,125,0.28);
+    color:white;
+    line-height: 50px;
+    font-size: 18px;
+    transition: 0.2s;
+    position: relative;
+    left: 1096%;
+    border-radius: 50%; 
+}
+.redesradica ul li a{
+    display: block;
+    padding: 0 10px;
+    background: rgb(15,98,129);
+    background: rgba(125,125,125,0.28);
+    color:white;
+    line-height: 50px;
+    font-size: 18px;
+    transition: 0.2s;
+    position: relative;
+    left: 1125%;
+    border-radius: 50%; 
+}
+/*e
+/*body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.login-box{
+    width: 600px;
+    height: 500px;
+    background: #000;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px, 30px;
+}
+
+.login-box .imagen{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: -50px;
+   left: calc(50% - 50px);
+}
+
+.login-box .h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width:100;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline:none;
+    height: 40px;
+    background: #b80f22;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
